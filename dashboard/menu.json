@@ -1,0 +1,9 @@
+{
+    "items": [
+    {
+        "name": "Dashboard 4DCu.be",
+        "priority": -999,
+        "action": "./bin/start.sh"
+    }
+    ]
+}
