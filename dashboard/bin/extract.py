@@ -20,18 +20,18 @@ def get_gwent_data(url):
         html = response.read()
 
     output = {
-        'player':   re.findall(r'<strong class="l-player-details__name">\\n\s+(.*?)</strong>', str(html))[0],
-        'mmr':      re.findall(r'<div class="l-player-details__table-mmr">.*?<strong>(.*?)</strong></div>', str(html))[0],
-        'position': re.findall(r'<div class="l-player-details__table-position">.*?<strong>(.*?)</strong></div>', str(html))[0],
-        'rank':     re.findall(r'<span class="l-player-details__rank"><strong>(.*?)</strong></span>', str(html))[0],
-        'ladder':   re.findall(r'<div class="l-player-details__table-ladder" ><span>(.*?)</span></div>', str(html))[0],
+        'player':   ''.join(re.findall(r'<strong class="l-player-details__name">\\n\s+(.*?)</strong>', str(html))),
+        'mmr':      ''.join(re.findall(r'<div class="l-player-details__table-mmr">.*?<strong>(.*?)</strong></div>', str(html))),
+        'position': ''.join(re.findall(r'<div class="l-player-details__table-position">.*?<strong>(.*?)</strong></div>', str(html))),
+        'rank':     ''.join(re.findall(r'<span class="l-player-details__rank"><strong>(.*?)</strong></span>', str(html))),
+        'ladder':   ''.join(re.findall(r'<div class="l-player-details__table-ladder" ><span>(.*?)</span></div>', str(html))),
     }
 
     return output
 
 
 if __name__ == "__main__":
-    scholar_url = "https://scholar.google.com/citations?user=4niBmJUAAAAJ&hl=en"
+    scholar_url = "http://scholar.google.com/citations?user=4niBmJUAAAAJ&hl=en"
     gwent_url = "http://www.playgwent.com/en/profile/sepro"
 
     #gs_data = get_google_scholar(scholar_url)

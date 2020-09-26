@@ -4,6 +4,10 @@
         "name": "Dashboard 4DCu.be",
         "priority": -999,
         "action": "./bin/start.sh"
+    }, {
+        "name": "Dashboard 4DCu.be (Debug)",
+        "priority": -998,
+        "action": "./bin/start_once.sh"
     }
     ]
 }
