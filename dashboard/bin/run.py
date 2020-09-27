@@ -14,6 +14,7 @@ tvmaze_ids = [6,  # The 100
               ]
 
 if __name__ == "__main__":
+    # Load data. printing text here is for debugging only, should be removed later
     os.system('eips -c')
 
     os.system('eips 15  4 \'Loading Data ...\'')
@@ -24,6 +25,7 @@ if __name__ == "__main__":
     os.system('eips 15  8 \'TVMaze ...\'')
     tvmaze_data = get_tvmaze_data(tvmaze_ids)
 
+    # All data is loaded, let's put it on the screen
     os.system('eips -c')
     os.system('eips -c')
     os.system('eips 15  2 \'Google Scholar\'')

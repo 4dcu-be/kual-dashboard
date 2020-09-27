@@ -8,7 +8,8 @@ cd "$(dirname "$0")"
 
 while true
 do
-    sleep 5
+    # Make sure there is enough time to reconnect to the wifi
+    sleep 30
     # Refresh Dashboard
     python3 /mnt/base-us/extensions/dashboard/bin/run.py
     sleep 5
