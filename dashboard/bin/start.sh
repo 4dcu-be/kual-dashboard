@@ -2,8 +2,8 @@
 
 cd "$(dirname "$0")"
 
-/usr/sbin/ -c
-/usr/sbin/ 15  4 'Starting 4DCu.be Dashboard'
+/usr/sbin/eips -c
+/usr/sbin/eips 15  4 'Starting 4DCu.be Dashboard'
 
 
 while true

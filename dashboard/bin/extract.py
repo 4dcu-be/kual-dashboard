@@ -2,8 +2,30 @@ import ssl
 import urllib.request
 import re
 import json
+from functools import wraps
+from os.path import join
+
+cache_dir = '/mnt/base-us/extensions/dashboard/cache/'
 
 
+def failwithcache(cache_file):
+    def deco_failwithcache(f):
+        @wraps(f)
+        def f_failwithcache(*args, **kwargs):
+            try:
+                output = f(*args, **kwargs)
+                with open(join(cache_dir, cache_file), 'w') as fout:
+                    json.dump(output, fout)
+            except:
+                print('failed, getting file from cache')
+                with open(join(cache_dir, cache_file)) as fin:
+                    output = json.load(fin)
+            return output
+        return f_failwithcache
+    return deco_failwithcache
+
+
+@failwithcache('scholar.json')
 def get_google_scholar(url):
     ssl_context = ssl._create_unverified_context()
     with urllib.request.urlopen(url, context=ssl_context) as response:
@@ -15,6 +37,7 @@ def get_google_scholar(url):
     return dict(zip(fields, hits))
 
 
+@failwithcache('gwent.json')
 def get_gwent_data(url):
     ssl_context = ssl._create_unverified_context()
     with urllib.request.urlopen(url, context=ssl_context) as response:
@@ -31,12 +54,12 @@ def get_gwent_data(url):
     return output
 
 
+@failwithcache('tvmaze.json')
 def get_tvmaze_data(ids):
     output = []
 
     ssl_context = ssl._create_unverified_context()
     for id in ids:
-        print(id)
         url = 'http://api.tvmaze.com/shows/%d' % id
         with urllib.request.urlopen(url, context=ssl_context) as response:
             data = json.load(response)
