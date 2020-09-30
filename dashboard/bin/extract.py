@@ -4,8 +4,9 @@ import re
 import json
 from functools import wraps
 from os.path import join
+import os
 
-cache_dir = '/mnt/base-us/extensions/dashboard/cache/'
+cache_dir = '/mnt/base-us/extensions/dashboard/cache/' if os.name != 'nt' else '../cache'
 
 
 def failwithcache(cache_file):
