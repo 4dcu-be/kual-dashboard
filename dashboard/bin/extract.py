@@ -17,8 +17,7 @@ def failwithcache(cache_file):
                 with open(join(cache_dir, cache_file), 'w') as fout:
                     json.dump(output, fout)
             except:
-                print('failed, getting file from cache')
-                with open(join(cache_dir, cache_file)) as fin:
+                with open(join(cache_dir, cache_file), 'r') as fin:
                     output = json.load(fin)
             return output
         return f_failwithcache
