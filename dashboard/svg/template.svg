@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-153.6152"
-     inkscape:cy="796.91925"
+     inkscape:zoom="0.82113259"
+     inkscape:cx="354.50006"
+     inkscape:cy="626.53782"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -36,7 +36,20 @@
      inkscape:window-height="1361"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="15.497024,233.58929"
+       orientation="1,0"
+       id="guide840"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="267.22916,203.72917"
+       orientation="1,0"
+       id="guide886"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -77,111 +90,103 @@
        y="89.88266" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="9.4494047"
-       y="104.54821"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="141.4973"
+       y="110.16689"
        id="text822"><tspan
          sodipodi:role="line"
          id="tspan820"
-         x="9.4494047"
-         y="104.54821"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.26458332">GWENT_LADDER_RANK</tspan></text>
-    <g
-       id="g975"
-       transform="translate(11.082311)">
-      <text
-         id="text844"
+         x="141.4973"
+         y="110.16689"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332">GWENT_LADDER_RANK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="218.7433"
+       y="30.630615"
+       id="text844"><tspan
+         sodipodi:role="line"
+         x="218.7433"
          y="30.630615"
-         x="207.661"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan864"
-           style="text-align:center;text-anchor:middle;fill:#808080;stroke-width:0.26458332"
-           y="30.630615"
-           x="207.661"
-           sodipodi:role="line">Citations</tspan></text>
-      <text
-         id="text844-1"
+         style="text-align:center;text-anchor:middle;fill:#808080;stroke-width:0.26458332"
+         id="tspan864">Citations</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="61.448376"
+       y="30.630615"
+       id="text844-1"><tspan
+         sodipodi:role="line"
+         id="tspan842-6"
+         x="61.448376"
          y="30.630615"
-         x="50.366066"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;fill:#808080;stroke-width:0.26458332"
-           y="30.630615"
-           x="50.366066"
-           id="tspan842-6"
-           sodipodi:role="line">H-Index</tspan></text>
-      <text
-         id="text870"
+         style="text-align:center;text-anchor:middle;fill:#808080;stroke-width:0.26458332">H-Index</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="61.505219"
+       y="59.039886"
+       id="text870"><tspan
+         sodipodi:role="line"
+         x="61.505219"
          y="59.039886"
-         x="50.784645"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan872"
-           style="font-weight:bold;font-size:19.75555611px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="59.039886"
-           x="50.784645"
-           sodipodi:role="line">GS_HINDEX</tspan></text>
-      <text
-         id="text870-7"
+         style="font-weight:bold;font-size:22.57777778px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan872">GS_HINDEX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="219.01581"
+       y="58.760143"
+       id="text870-7"><tspan
+         sodipodi:role="line"
+         x="219.01581"
          y="58.760143"
-         x="207.40295"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan872-1"
-           style="font-weight:bold;font-size:19.75555611px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="58.760143"
-           x="207.40295"
-           sodipodi:role="line">GS_CITATIONS</tspan></text>
-    </g>
-    <g
-       id="g985"
-       transform="translate(9.9531793)">
-      <text
-         id="text844-4"
+         style="font-weight:bold;font-size:22.57777778px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan872-1">GS_CITATIONS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="198.10632"
+       y="131.02769"
+       id="text844-4"><tspan
+         sodipodi:role="line"
+         x="198.10632"
          y="131.02769"
-         x="184.83035"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan864-6"
-           style="fill:#4d4d4d;stroke-width:0.26458332"
-           y="131.02769"
-           x="184.83035"
-           sodipodi:role="line">Position</tspan></text>
-      <text
-         id="text844-1-8"
+         style="fill:#4d4d4d;stroke-width:0.26458332"
+         id="tspan864-6">Position</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="61.43029"
+       y="131.02769"
+       id="text844-1-8"><tspan
+         sodipodi:role="line"
+         id="tspan842-6-6"
+         x="61.43029"
          y="131.02769"
-         x="50.366066"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.26458332"
-           y="131.02769"
-           x="50.366066"
-           id="tspan842-6-6"
-           sodipodi:role="line">MMR</tspan></text>
-      <text
-         id="text870-2"
+         style="text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.26458332">MMR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="61.495575"
+       y="159.43697"
+       id="text870-2"><tspan
+         sodipodi:role="line"
+         x="61.495579"
          y="159.43697"
-         x="51.597687"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan872-9"
-           style="font-weight:bold;font-size:19.75555611px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="159.43697"
-           x="51.597691"
-           sodipodi:role="line">GWENT_MMR</tspan></text>
-      <text
-         id="text870-7-8"
+         style="font-weight:bold;font-size:22.57777778px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan872-9">GWENT_MMR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="219.2039"
+       y="159.15723"
+       id="text870-7-8"><tspan
+         sodipodi:role="line"
+         x="219.2039"
          y="159.15723"
-         x="208.07983"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan872-1-4"
-           style="font-weight:bold;font-size:19.75555611px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="159.15723"
-           x="208.07983"
-           sodipodi:role="line">GWENT_POSITION</tspan></text>
-    </g>
+         style="font-weight:bold;font-size:22.57777778px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan872-1-4">GWENT_POSITION</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -192,6 +197,127 @@
          id="tspan835"
          x="141.64096"
          y="366.86368"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">LASTUPDATE</tspan></text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:8.46666667px">LASTUPDATE</tspan></text>
+    <g
+       id="g1019"
+       transform="translate(0,-1.0583229)">
+      <text
+         id="text822-8"
+         y="209.58478"
+         x="14.918397"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111111px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
+           y="209.58478"
+           x="14.918397"
+           id="tspan820-6"
+           sodipodi:role="line">TV_SHOW_1</tspan></text>
+      <text
+         id="text822-8-0"
+         y="232.26572"
+         x="15.501947"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
+           y="232.26572"
+           x="15.501947"
+           id="tspan820-6-7"
+           sodipodi:role="line">TV_EPISODE_1</tspan></text>
+      <text
+         id="text822-8-0-7"
+         y="232.26572"
+         x="269.99377"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;text-anchor:end;stroke-width:0.26458332"
+           y="232.26572"
+           x="269.99377"
+           id="tspan820-6-7-6"
+           sodipodi:role="line">TV_AIRDATE_1</tspan></text>
+    </g>
+    <g
+       id="g1027"
+       transform="translate(0,2.0895526e-5)">
+      <text
+         id="text822-8-06"
+         y="260.4545"
+         x="14.918397"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111111px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
+           y="260.4545"
+           x="14.918397"
+           id="tspan820-6-2"
+           sodipodi:role="line">TV_SHOW_2</tspan></text>
+      <text
+         id="text822-8-0-1"
+         y="283.13544"
+         x="15.501947"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
+           y="283.13544"
+           x="15.501947"
+           id="tspan820-6-7-8"
+           sodipodi:role="line">TV_EPISODE_2</tspan></text>
+      <text
+         id="text822-8-0-7-7"
+         y="283.13544"
+         x="268.14722"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;text-anchor:end;stroke-width:0.26458332"
+           y="283.13544"
+           x="268.14722"
+           id="tspan820-6-7-6-2"
+           sodipodi:role="line">TV_AIRDATE_2</tspan></text>
+    </g>
+    <g
+       id="g1035"
+       transform="translate(0,1.0583341)">
+      <text
+         id="text822-8-7"
+         y="311.32425"
+         x="14.918397"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111111px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
+           y="311.32425"
+           x="14.918397"
+           id="tspan820-6-8"
+           sodipodi:role="line">TV_SHOW_3</tspan></text>
+      <text
+         id="text822-8-0-13"
+         y="334.00519"
+         x="15.501947"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
+           y="334.00519"
+           x="15.501947"
+           id="tspan820-6-7-1"
+           sodipodi:role="line">TV_EPISODE_3</tspan></text>
+      <text
+         id="text822-8-0-7-5"
+         y="334.00519"
+         x="268.04385"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;text-anchor:end;stroke-width:0.26458332"
+           y="334.00519"
+           x="268.04385"
+           id="tspan820-6-7-6-5"
+           sodipodi:role="line">TV_AIRDATE_3</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#e6e6e6;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 68.718451,241.06914 H 214.91488"
+       id="path1037"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#e6e6e6;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 68.718458,292.99721 H 214.91488"
+       id="path1037-4"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

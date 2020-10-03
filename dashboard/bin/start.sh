@@ -32,7 +32,7 @@ if [ -e ./svg/tmp.svg ]; then
 fi
 
 # Make sure the screen is fully refreshed before going to sleep
-sleep 15
+sleep 5
 
 echo "" > /sys/class/rtc/rtc1/wakealarm
 # Following line contains sleep time in seconds
@@ -41,5 +41,4 @@ echo "+3600" > /sys/class/rtc/rtc1/wakealarm
 echo mem > /sys/power/state
 
 # Kill self and spawn a new instance
-# When simply running an infinite loop there were issues, testing if these occur
 /bin/sh ./bin/start.sh && exit

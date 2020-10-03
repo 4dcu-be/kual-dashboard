@@ -5,27 +5,57 @@ import json
 from functools import wraps
 from os.path import join
 import os
+from datetime import datetime
 
 cache_dir = '/mnt/base-us/extensions/dashboard/cache/' if os.name != 'nt' else '../cache'
 
 
-def failwithcache(cache_file):
-    def deco_failwithcache(f):
+def hours_since_last_modification(file_path):
+    """"
+    Returns the number of hours since a file was modified. -1 indicates the file doesn't exists
+    """
+    if os.path.exists(file_path):
+        last_modification = os.stat(file_path).st_mtime
+        return (datetime.now().timestamp() - last_modification)/3600
+    else:
+        return -1
+
+
+def cache(cache_file, cache_time):
+    """
+    Decorator that combine two things:
+        * if the decorated function fails (for any reason) it will pull the most recent data
+        from cache and return those.
+        * if the cache file is more recent than cache_time and return the
+        cached data if the file is recent enough
+
+    :param cache_file: File to write cache to
+    :param cache_time: How long (in hours) a file should be cached
+    """
+    def deco_cache(f):
         @wraps(f)
-        def f_failwithcache(*args, **kwargs):
+        def f_cache(*args, **kwargs):
+            hslm = hours_since_last_modification(cache_file)
+            if 0 <= hslm < cache_time:
+                with open(cache_file, 'r') as fin:
+                    output = json.load(fin)
+                return output
+
             try:
                 output = f(*args, **kwargs)
-                with open(join(cache_dir, cache_file), 'w') as fout:
+                with open(cache_file, 'w') as fout:
                     json.dump(output, fout)
             except:
-                with open(join(cache_dir, cache_file), 'r') as fin:
+                with open(cache_file, 'r') as fin:
                     output = json.load(fin)
             return output
-        return f_failwithcache
-    return deco_failwithcache
+
+        return f_cache
+
+    return deco_cache
 
 
-@failwithcache('scholar.json')
+@cache(join(cache_dir, 'scholar.json'), 8)
 def get_google_scholar(url):
     ssl_context = ssl._create_unverified_context()
     with urllib.request.urlopen(url, context=ssl_context) as response:
@@ -37,24 +67,28 @@ def get_google_scholar(url):
     return dict(zip(fields, hits))
 
 
-@failwithcache('gwent.json')
+@cache(join(cache_dir, 'gwent.json'), 1)
 def get_gwent_data(url):
     ssl_context = ssl._create_unverified_context()
     with urllib.request.urlopen(url, context=ssl_context) as response:
         html = response.read()
 
     output = {
-        'player':   ''.join(re.findall(r'<strong class="l-player-details__name">\\n\s+(.*?)</strong>', str(html))),
-        'mmr':      ''.join(re.findall(r'<div class="l-player-details__table-mmr">.*?<strong>(.*?)</strong></div>', str(html))).replace(',',''),
-        'position': ''.join(re.findall(r'<div class="l-player-details__table-position">.*?<strong>(.*?)</strong></div>', str(html))).replace(',',''),
-        'rank':     ''.join(re.findall(r'<span class="l-player-details__rank"><strong>(.*?)</strong></span>', str(html))),
-        'ladder':   ''.join(re.findall(r'<div class="l-player-details__table-ladder" ><span>(.*?)</span></div>', str(html))),
+        'player': ''.join(re.findall(r'<strong class="l-player-details__name">\\n\s+(.*?)</strong>', str(html))),
+        'mmr': ''.join(
+            re.findall(r'<div class="l-player-details__table-mmr">.*?<strong>(.*?)</strong></div>', str(html))).replace(
+            ',', ''),
+        'position': ''.join(re.findall(r'<div class="l-player-details__table-position">.*?<strong>(.*?)</strong></div>',
+                                       str(html))).replace(',', ''),
+        'rank': ''.join(re.findall(r'<span class="l-player-details__rank"><strong>(.*?)</strong></span>', str(html))),
+        'ladder': ''.join(
+            re.findall(r'<div class="l-player-details__table-ladder" ><span>(.*?)</span></div>', str(html))),
     }
 
     return output
 
 
-@failwithcache('tvmaze.json')
+@cache(join(cache_dir, 'tvmaze.json'), 8)
 def get_tvmaze_data(ids):
     output = []
 
@@ -82,9 +116,10 @@ if __name__ == "__main__":
     scholar_url = "http://scholar.google.com/citations?user=4niBmJUAAAAJ&hl=en"
     gwent_url = "http://www.playgwent.com/en/profile/sepro"
 
-    tvmaze_ids = [6,        # The 100
-                  79,       # The Goldbergs
-                  38963,    # The Mandalorian
+    tvmaze_ids = [6,  # The 100
+                  79,  # The Goldbergs
+                  38963,  # The Mandalorian
+                  17128  # This Is Us
                   ]
 
     gs_data = get_google_scholar(scholar_url)
